@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{John} % Your first name
+\familyname{Morales} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Hon BSc. Statistics Major @ UofT}
+\address{740 Kennedy Rd, Unit 91}{Toronto, Ontario}
+\mobile{(647) 919 0725}
+\phone{(416) 285 0725}
+\email{john21morales@gmail.com}
+\homepage{https://john21morales.github.io/CSS-practice/}{https://john21morales.github.io/CSS-practice/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{https://www.linkedin.com/in/john-morales-75a12a258/}
+\photo[70pt][0.4pt]{pictures/resumepic} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{HR Department}{Deloitte\\8 Adelaide St W\\Suite 200, Toronto, ON M5H 0A9} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Deloitte Recruiting team,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{Resume, Transcript{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+I am writing to express my strong interest in the Deloitte Technical Consultant Intern position. As a recent graduate with a Bachelor of Science in Statistics from the University of Toronto, I am excited to begin my career in consulting and believe that Deloitte is the perfect place for me to do so. This is because as a new graduate with no industry experience but a thirst to grow and learn, I believe that a consulting role will help me to develop a wide skill set needed to thrive in the tech industry.
+
+I have developed a strong foundation in technical skills through my coursework and hands-on projects, and am confident in my ability to contribute to the Deloitte team. Although I do not have any work experience in the tech or business industry, I believe my experience working at Booster Juice and Tim Hortons have given me strong communication skills in which I can apply with both learning from as well as leading a team in the future. In addition, my experience working on Statistics assignments as well as side projects has given me valuable experience in RStudio, PowerBI, Microsoft Excel, Python, HTML and CSS and Javascript which I believe would be an asset to your team.
+
+I am highly motivated to join Deloitte and contribute to the company's mission of providing world-class consulting services to clients. I believe that my skills and experience, combined with Deloitte's renowned training and development programs, will allow me to thrive in this role.
+
+Thank you for considering my application. I am excited about the opportunity to interview for this position and further discuss my qualifications with you.
+
+
+\makeletterclosing % Print letter signature
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	RESUME
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{[2019--2022]}{Bachelor of Science: Statistics Major, Double Minor in Economics and Psychology}{University of Toronto}{Scarborough}{}{}  % Arguments not required can be left empty
+\cventry{[2013--2018]}{Bachelor of Science: Psychology Major}{University of Toronto}{Scarborough}{}{Switched Majors to Statistics}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+%------------------------------------------------
+
+\cventry{[2018--2020]}{Customer Service Representative}{\textsc{Booster Juice}}{Toronto}{Union Station}{Made Smoothies and served customers using a POS system at a fast-paced and busy Location.}
+
+\cventry{[2016--2018]}{Sales Floor Team Member}{\textsc{Tim Hortons}}{Scarborough}{Kennedy-Lawrence}{Served food, coffee and other beverages to customers using a POS system.}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{[2022]}{Dean's List Scholar - Annual GPA : 3.80, Summer sGPA : 3.93} 
+\cvitem{[2021]}{Dean's List Scholar - Annual GPA: 3.87}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\cvitem{[Basic]}{\textsc{java}, {\textsc{sql}}}
+\cvitem{[Intermediate]}{\textsc{python}, \textsc{html}, \LaTeX, Microsoft Excel, \textsc{powerbi}, HTML, CSS}
+\cvitem{[Advanced]}{RStudio, Data Analysis techniques including Time Series, Microsoft Word, PowerPoint}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Professional Skills}
+
+\cvitem{[Leadership]}{Trained workers at Booster Juice and Tim Hortons. Can simplify complicated concepts in order for the mentee or customer can easily understand the information. }
+\cvitem{[Active Listener]}{Willing to listen to managers in order to learn new skills. Willing to improve using customer and team feedback.}
+\cvitem{[Initiative]}{Willing to self-learn new concepts or ask questions when stuck to learn new skills needed for the task at hand.}
+\cvitem{[Problem Solver]}{Able to troubleshoot problems that have come up during coding and data projects by looking at documentation, googling or asking questions in Stack Overflow}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{[English]}{Fluent}{}
+\cvitemwithcomment{[Tagalog]}{Intermediate}{}
+\cvitemwithcomment{[French]}{Elementary Proficiency}{}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
